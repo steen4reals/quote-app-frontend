@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+body{
+  background-image: url("https://i.imgur.com/mhEpzCE.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: bottom; 
+  background-size: 300px;
+  background-color: black;
+}
+
+.App{
+  top: 20px;
+  font-family: 'Codystar', cursive;
+  height: 50vh;
+  width: 100vw;
+  color: white;
+  z-index:1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content:space-around;
+}
+
+textarea{
+  width: 400px;
+  height: auto;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  textarea{
+    width: 300px;
+  }
+}
+
+.create{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+button{
+  width: 150px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-family:'Courier New', Courier, monospace;
+  margin: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover{
+  color:black;
+  background-color: whitesmoke;
+  font-weight: bold;
+
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+
+  
+}
+
+label{
+  font-weight: bold;
+  margin: 15px;
+}
+
+p {
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 25px;
+}
+
+
